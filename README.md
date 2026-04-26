@@ -38,8 +38,27 @@ ________________________________________
 •	Filled missing dates using forward-fill logic
 •	Extracted Month and Year for time-based analysis
 ________________________________________
- 
----
 
 
----
+ 4. Revenue & Profit Validation
+•	Recalculated revenue using:
+o	Units × MRP × (1 - Discount)
+•	Identified and flagged:
+o	Zero revenue with non-zero units
+o	Negative or inconsistent profit values
+________________________________________
+
+5. Data Standardization
+•	Cleaned categorical inconsistencies:
+o	Region names (e.g., Hyd → Hyderabad)
+o	Product naming inconsistencies
+•	Ensured uniform formatting across dataset
+________________________________________
+6. Data Validation Checks
+•	Ensured:
+o	Units are integers (no decimal sales)
+o	Discount values lie between 0–1
+o	No duplicate records
+o	Outliers identified and reviewed
+________________________________________
+
