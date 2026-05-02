@@ -62,3 +62,7 @@ o	No duplicate records
 o	Outliers identified and reviewed
 ________________________________________
 
+## Live Dashboard
+View pivot tables and analysis here:
+[Nike Sales Dashboard](https://docs.google.com/spreadsheets/d/1emqXnNPDODYUVR5vKcpzCfnnEexYuTf_ascGmv0gfBM/edit?gid=1757264485#gid=1757264485)
+
